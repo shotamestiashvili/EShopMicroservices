@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "5X3z7ThsiUQ=",
+  "dgSpecHash": "0QZYVz/2enc=",
   "success": true,
   "projectFilePath": "/Users/shota_mestiashvili/Documents/ESMicroservices/src/BuildingBlocks/BuildingBlocks/BuildingBlocks.csproj",
   "expectedPackageFiles": [
+    "/Users/shota_mestiashvili/.nuget/packages/mapster/7.4.0/mapster.7.4.0.nupkg.sha512",
+    "/Users/shota_mestiashvili/.nuget/packages/mapster.core/1.2.1/mapster.core.1.2.1.nupkg.sha512",
     "/Users/shota_mestiashvili/.nuget/packages/mediatr/12.4.1/mediatr.12.4.1.nupkg.sha512",
     "/Users/shota_mestiashvili/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/shota_mestiashvili/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"

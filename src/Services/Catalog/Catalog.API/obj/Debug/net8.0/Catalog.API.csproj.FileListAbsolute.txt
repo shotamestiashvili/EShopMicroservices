@@ -33,3 +33,8 @@
 /Users/shota_mestiashvili/Documents/ESMicroservices/src/Services/Catalog/Catalog.API/bin/Debug/net8.0/BuildingBlocks.pdb
 /Users/shota_mestiashvili/Documents/ESMicroservices/src/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog.API.csproj.AssemblyReference.cache
 /Users/shota_mestiashvili/Documents/ESMicroservices/src/Services/Catalog/Catalog.API/obj/Debug/net8.0/Catalog..F07FDCDC.Up2Date
+/Users/shota_mestiashvili/Documents/ESMicroservices/src/Services/Catalog/Catalog.API/bin/Debug/net8.0/Carter.dll
+/Users/shota_mestiashvili/Documents/ESMicroservices/src/Services/Catalog/Catalog.API/bin/Debug/net8.0/FluentValidation.dll
+/Users/shota_mestiashvili/Documents/ESMicroservices/src/Services/Catalog/Catalog.API/bin/Debug/net8.0/Mapster.dll
+/Users/shota_mestiashvili/Documents/ESMicroservices/src/Services/Catalog/Catalog.API/bin/Debug/net8.0/Mapster.Core.dll
+/Users/shota_mestiashvili/Documents/ESMicroservices/src/Services/Catalog/Catalog.API/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
