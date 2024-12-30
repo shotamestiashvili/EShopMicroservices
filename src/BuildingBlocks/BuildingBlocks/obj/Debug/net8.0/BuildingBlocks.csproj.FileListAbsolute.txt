@@ -1,0 +1,13 @@
+/Users/shota_mestiashvili/Documents/ESMicroservices/src/BuildingBlocks/BuildingBlocks/bin/Debug/net8.0/BuildingBlocks.deps.json
+/Users/shota_mestiashvili/Documents/ESMicroservices/src/BuildingBlocks/BuildingBlocks/bin/Debug/net8.0/BuildingBlocks.dll
+/Users/shota_mestiashvili/Documents/ESMicroservices/src/BuildingBlocks/BuildingBlocks/bin/Debug/net8.0/BuildingBlocks.pdb
+/Users/shota_mestiashvili/Documents/ESMicroservices/src/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.csproj.AssemblyReference.cache
+/Users/shota_mestiashvili/Documents/ESMicroservices/src/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shota_mestiashvili/Documents/ESMicroservices/src/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.AssemblyInfoInputs.cache
+/Users/shota_mestiashvili/Documents/ESMicroservices/src/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.AssemblyInfo.cs
+/Users/shota_mestiashvili/Documents/ESMicroservices/src/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.csproj.CoreCompileInputs.cache
+/Users/shota_mestiashvili/Documents/ESMicroservices/src/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.sourcelink.json
+/Users/shota_mestiashvili/Documents/ESMicroservices/src/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.dll
+/Users/shota_mestiashvili/Documents/ESMicroservices/src/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/refint/BuildingBlocks.dll
+/Users/shota_mestiashvili/Documents/ESMicroservices/src/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.pdb
+/Users/shota_mestiashvili/Documents/ESMicroservices/src/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/ref/BuildingBlocks.dll
