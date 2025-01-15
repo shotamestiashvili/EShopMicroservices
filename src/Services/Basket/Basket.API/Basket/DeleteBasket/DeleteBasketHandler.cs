@@ -1,6 +1,3 @@
-using Basket.API.Basket.Data;
-using BuildingBlocks.CQRS;
-
 namespace Basket.API.Basket.DeleteBasket;
 
 public record DeleteBasketCommand(string UserName) : ICommand<DeleteBasketResult>;
@@ -19,6 +16,7 @@ public class DeleteBasketCommandHandler(IBasketRepository repository)
 {
     public async Task<DeleteBasketResult> Handle(DeleteBasketCommand command, CancellationToken cancellationToken)
     {
+        // TODO: delete basket from database and cache       
         await repository.DeleteBasket(command.UserName, cancellationToken);
 
         return new DeleteBasketResult(true);
