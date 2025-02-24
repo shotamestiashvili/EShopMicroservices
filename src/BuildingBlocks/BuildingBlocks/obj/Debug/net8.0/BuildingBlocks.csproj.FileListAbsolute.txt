@@ -11,3 +11,16 @@
 /Users/shota_mestiashvili/Documents/ESMicroservices/src/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/refint/BuildingBlocks.dll
 /Users/shota_mestiashvili/Documents/ESMicroservices/src/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.pdb
 /Users/shota_mestiashvili/Documents/ESMicroservices/src/BuildingBlocks/BuildingBlocks/obj/Debug/net8.0/ref/BuildingBlocks.dll
+C:\Users\shmestiashvili\projects\eshop\src\BuildingBlocks\BuildingBlocks\bin\Debug\net8.0\BuildingBlocks.deps.json
+C:\Users\shmestiashvili\projects\eshop\src\BuildingBlocks\BuildingBlocks\bin\Debug\net8.0\BuildingBlocks.dll
+C:\Users\shmestiashvili\projects\eshop\src\BuildingBlocks\BuildingBlocks\bin\Debug\net8.0\BuildingBlocks.pdb
+C:\Users\shmestiashvili\projects\eshop\src\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.csproj.AssemblyReference.cache
+C:\Users\shmestiashvili\projects\eshop\src\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shmestiashvili\projects\eshop\src\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.AssemblyInfoInputs.cache
+C:\Users\shmestiashvili\projects\eshop\src\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.AssemblyInfo.cs
+C:\Users\shmestiashvili\projects\eshop\src\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.csproj.CoreCompileInputs.cache
+C:\Users\shmestiashvili\projects\eshop\src\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.sourcelink.json
+C:\Users\shmestiashvili\projects\eshop\src\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.dll
+C:\Users\shmestiashvili\projects\eshop\src\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\refint\BuildingBlocks.dll
+C:\Users\shmestiashvili\projects\eshop\src\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\BuildingBlocks.pdb
+C:\Users\shmestiashvili\projects\eshop\src\BuildingBlocks\BuildingBlocks\obj\Debug\net8.0\ref\BuildingBlocks.dll

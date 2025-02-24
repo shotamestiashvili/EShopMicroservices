@@ -1,4 +1,4 @@
-using System.Reflection;
+﻿using System.Reflection;
 using Microsoft.EntityFrameworkCore;
 using Ordering.Domain.Models;
 
@@ -6,13 +6,15 @@ namespace Ordering.Infrastructure.Data;
 
 public class ApplicationDbContext : DbContext
 {
-    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-        :base(options){}
+    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+    {
+    }
     
-    public DbSet<Customer> Customers => Set<Customer>();
-    public DbSet<Product> Products => Set<Product>();
-    public DbSet<Order> Orders => Set<Order>();
-    public DbSet<OrderItem> OrderItems => Set<OrderItem>();
+    public DbSet<Customer> Customers  { get; set; }
+    public DbSet<Product> Products  { get; set; }
+    public DbSet<Order> Orders  { get; set; }
+    public DbSet<OrderItem> OrderItems  { get; set; }
+
 
     protected override void OnModelCreating(ModelBuilder builder)
     {

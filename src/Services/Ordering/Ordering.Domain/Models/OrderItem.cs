@@ -1,11 +1,11 @@
-using Ordering.Domain.Abstractions;
+﻿using Ordering.Domain.Abstraction;
 using Ordering.Domain.ValueObjects;
 
 namespace Ordering.Domain.Models;
 
-public class OrderItem: Entity<OrderItemId>
+public class OrderItem : Entity<OrderItemId>
 {
-    internal OrderItem(OrderId orderId, ProductId productId, int quantity, decimal price)
+    public OrderItem(OrderId orderId, ProductId productId, int quantity, decimal price)
     {
         Id = OrderItemId.Of(Guid.NewGuid());
         OrderId = orderId;
@@ -13,7 +13,7 @@ public class OrderItem: Entity<OrderItemId>
         Quantity = quantity;
         Price = price;
     }
-
+    
     public OrderId OrderId { get; private set; } = default!;
     public ProductId ProductId { get; private set; } = default!;
     public int Quantity { get; private set; } = default!;

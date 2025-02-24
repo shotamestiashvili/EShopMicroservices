@@ -1,4 +1,4 @@
-namespace Ordering.Domain.ValueObjects;
+﻿namespace Ordering.Domain.ValueObjects;
 
 public record Payment
 {
@@ -7,10 +7,8 @@ public record Payment
     public string Expiration { get; } = default!;
     public string CVV { get; } = default!;
     public int PaymentMethod { get; } = default!;
-
-    protected Payment()
-    {
-    }
+    
+    protected Payment() { }
 
     private Payment(string cardName, string cardNumber, string expiration, string cvv, int paymentMethod)
     {
@@ -23,9 +21,9 @@ public record Payment
 
     public static Payment Of(string cardName, string cardNumber, string expiration, string cvv, int paymentMethod)
     {
-        ArgumentException.ThrowIfNullOrWhiteSpace(cardName);
-        ArgumentException.ThrowIfNullOrWhiteSpace(cardNumber);
-        ArgumentException.ThrowIfNullOrWhiteSpace(cvv);
+        ArgumentNullException.ThrowIfNull(cardName);
+        ArgumentNullException.ThrowIfNull(cardNumber);
+        ArgumentNullException.ThrowIfNull(cvv);
         ArgumentOutOfRangeException.ThrowIfGreaterThan(cvv.Length, 3);
 
         return new Payment(cardName, cardNumber, expiration, cvv, paymentMethod);
