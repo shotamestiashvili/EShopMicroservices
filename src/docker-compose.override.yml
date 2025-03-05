@@ -27,14 +27,14 @@ services:
     restart: always
     ports:
       - "6378:6379"
-#  orderdb:
-#    container_name: orderdb
-#    environment:
-#      - ACCEPT_EULA=Y
-#      - SA_PASSWORD=SwN12345678
-#    restart: always
-#    ports:
-#      - "1433:1433"
+  orderdb:
+    container_name: orderdb
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=SwN12345678
+    restart: always
+    ports:
+      - "1433:1433"
   
   catalog.api:
     environment:
@@ -76,15 +76,15 @@ services:
       - ~/.Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
       - ~/.aspnet/dev-certs/https:/home/app/.aspnet/https:ro
   
-#  ordering.api:
-#    environment:
-#      - ASPNETCORE_ENVIRONMENT=Development
-#      - ASPNETCORE_HTTP_PORTS=8880
-#      - ConnectionStrings__Database=Server=orderdb;Database=OrderDb;User Id=sa;Password=SwN12345678;Encrypt=False;TrustServerCertificate=True
-#    depends_on:
-#      - orderdb
-#    ports:
-#      - "6003:8080"
-#    volumes:
-#      - ~/.Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
-#      - ~/.aspnet/dev-certs/https:/home/app/.aspnet/https:ro
+  ordering.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8880
+      - ConnectionStrings__Database=Server=orderdb;Database=OrderDb;User Id=sa;Password=SwN12345678;Encrypt=False;TrustServerCertificate=True
+    depends_on:
+      - orderdb
+    ports:
+      - "6003:8080"
+    volumes:
+      - ~/.Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
+      - ~/.aspnet/dev-certs/https:/home/app/.aspnet/https:ro

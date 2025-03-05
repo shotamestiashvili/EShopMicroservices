@@ -11,3 +11,5 @@ C:\Users\shmestiashvili\projects\eshop\src\Services\Ordering\Ordering.Domain\obj
 C:\Users\shmestiashvili\projects\eshop\src\Services\Ordering\Ordering.Domain\obj\Debug\net8.0\Ordering.Domain.pdb
 C:\Users\shmestiashvili\projects\eshop\src\Services\Ordering\Ordering.Domain\obj\Debug\net8.0\ref\Ordering.Domain.dll
 C:\Users\shmestiashvili\projects\eshop\src\Services\Ordering\Ordering.Domain\obj\Debug\net8.0\Ordering.Domain.csproj.AssemblyReference.cache
+C:\Users\shmestiashvili\projects\eshop\src\Services\Ordering\Ordering.Domain\bin\Debug\net8.0\Ordering.Domain.runtimeconfig.json
+C:\Users\shmestiashvili\projects\eshop\src\Services\Ordering\Ordering.Domain\obj\Debug\net8.0\Ordering.Domain.genruntimeconfig.cache
