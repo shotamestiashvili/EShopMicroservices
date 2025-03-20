@@ -805,6 +805,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "BuildingBlocks >= 1.0.0",
+      "Microsoft.EntityFrameworkCore >= 8.0.0",
       "Ordering.Domain >= 1.0.0"
     ]
   },
@@ -864,6 +865,12 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
