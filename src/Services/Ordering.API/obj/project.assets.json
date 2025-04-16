@@ -46,6 +46,26 @@
           }
         }
       },
+      "Carter/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "11.8.0",
+          "Microsoft.Extensions.DependencyModel": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Carter.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Carter.dll": {
+            "related": ".pdb"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "FluentValidation/12.0.0-preview1": {
         "type": "package",
         "compile": {
@@ -1952,6 +1972,20 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "Carter/8.0.0": {
+      "sha512": "kENQQJqJeX0w8X4ohMUViPsx+YOjcWd5IGLS308w5cuygpJdlPPtgY+PSXItvMVzYCCe0ohBr3bcvnKhg1fJzg==",
+      "type": "package",
+      "path": "carter/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "carter.8.0.0.nupkg.sha512",
+        "carter.nuspec",
+        "carterlogo.png",
+        "lib/net8.0/Carter.dll",
+        "lib/net8.0/Carter.pdb"
       ]
     },
     "FluentValidation/12.0.0-preview1": {
@@ -5045,6 +5079,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Carter >= 8.0.0",
       "Microsoft.AspNetCore.OpenApi >= 8.0.12",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.0",
       "Ordering.Application >= 1.0.0",
@@ -5109,6 +5144,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Carter": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[8.0.12, )"
